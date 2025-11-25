@@ -29,6 +29,7 @@ By shifting from "text-in, text-out" pipelines to **structured thought-state com
 > **Note:** This implementation is a simple working application I built to demonstrate how OTP can be used in practice. It is not a full production system — it’s a minimal, functional example that shows the core idea in action.
 
 For AI engineers and CTOs building production-grade systems, OTP provides a new primitive that unlocks consistent behavior across complex, multi-step workflows while drastically reducing inference cost.
+
 ---
 
 # Insights
