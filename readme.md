@@ -140,4 +140,4 @@ We are actively seeking contributors for:
 
 ---
 
-**© 2025 Origami Thought Protocol.
+© 2025 Origami Thought Protocol.
