@@ -68,7 +68,7 @@ The table below compares a standard RAG retrieval, a compressed context method (
 ```mermaid
 flowchart TD
 
-    %% INPUT LAYER
+%% INPUT LAYER
     U["User Input<br>(Text / Files)"] --> P["Pre-Processor"]
 
     %% OTP ENCODER
@@ -79,15 +79,9 @@ flowchart TD
 
     %% LLM EXECUTION
     S --> LLM["LLM Inference Engine"]
-    U --> LLM
 
     %% OUTPUT BRANCHES
     LLM --> R["Natural Language Response"]
-    LLM --> CS["Updated OTP State"]
-
-    %% MEMORY & FEEDBACK LOOP
-    CS --> STORE[("State Store")]
-    STORE -->|Reinject State| K
 ```
 ---
 
