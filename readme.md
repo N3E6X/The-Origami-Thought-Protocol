@@ -107,21 +107,15 @@ OTP is implemented as a Python-based CLI wrapper around the Google GenAI SDK.
 
 1.  **Clone and Install:**
     ```bash
-    git clone https://github.com/yourusername/otp-engine.git
-    cd otp-engine
+    git clone https://github.com/N3E6X/The-Origami-Thought-Protocol.git
+    cd The-Origami-Thought-Protocol
     pip install -U google-genai
     ```
 
 2.  **Execute Kernel:**
     ```bash
-    python input_file_0.py
+    python main.py
     ```
-
-3.  **Runtime Commands:**
-    *   `/model` - Switch between `gemini-2.0-flash` (High throughput) and `gemini-2.0-pro` (High reasoning).
-    *   `/export` - Dump the compressed symbolic state for inspection.
-    *   `/file` - Ingest multimodal data (Images/PDFs) into the compressed stream.
-
 ---
 
 ## 📊 Use Cases
