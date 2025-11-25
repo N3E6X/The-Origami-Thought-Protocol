@@ -20,22 +20,22 @@ By shifting from "text-in, text-out" pipelines to **structured thought-state com
 *   **Multi-agent and multi-tool interoperability** through shared state schemas.
 *   **Scalable deployment** on edge devices and low-resource hardware.
 
-> **OTP is not a summarizer;** it is a protocol layer for cognitive efficiency—a foundation that lets any LLM operate with persistent memory, lower latency, and greater architectural stability.
+> **OTP is not a summarizer;** it is a protocol layer for cognitive efficiencya foundation that lets any LLM operate with persistent memory, lower latency, and greater architectural stability.
 
-> **Note:** This implementation is a simple working application I built to demonstrate how OTP can be used in practice. It is not a full production system — it’s a minimal, functional example that shows the core idea in action.
+> **Note:** This implementation is a simple working application I built to demonstrate how OTP can be used in practice. It is not a full production system  it’s a minimal, functional example that shows the core idea in action.
 
 ---
 
 ## 💡 Insights
 
-### 1. LLMs Don’t Forget Because They’re “Dumb” — They Forget Because Context Is Text
-Large models aren’t limited by intelligence; they are limited by **input modality**. When all memory is encoded as unstructured human language, the model must reprocess massive amounts of redundant text at every step. **OTP reframes memory as structured state, not prose** — eliminating the bottleneck.
+### 1. LLMs Don’t Forget Because They’re “Dumb”  They Forget Because Context Is Text
+Large models aren’t limited by intelligence; they are limited by **input modality**. When all memory is encoded as unstructured human language, the model must reprocess massive amounts of redundant text at every step. **OTP reframes memory as structured state, not prose**  eliminating the bottleneck.
 
 ### 2. Summaries Reduce Token Count, but They Also Reduce Precision
 Traditional summarization introduces ambiguity, loses constraints, and collapses fine-grained decisions. OTP keeps **100% recoverability** by encoding meaning as symbolic logic rather than lossy text compression. This transforms memory from “blurry recall” into **deterministic reasoning state**.
 
 ### 3. Real Long-Term Reasoning Requires Stability, Not Bigger Models
-Scaling models only buys longer attention spans — not structured continuity. OTP provides the missing layer: a durable **cognitive skeleton** that persists across steps, sessions, and tools.
+Scaling models only buys longer attention spans  not structured continuity. OTP provides the missing layer: a durable **cognitive skeleton** that persists across steps, sessions, and tools.
 
 ### 4. Symbolic Memory Makes Multi-Agent Systems Actually Work
 Most agent architectures collapse because agents pass around giant blobs of text. OTP turns agent state into **compact, typed symbols** that all agents can read/write. This creates a shared cognitive substrate.
