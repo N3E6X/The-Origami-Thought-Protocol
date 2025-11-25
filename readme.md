@@ -134,14 +134,9 @@ OTP is implemented as a Python-based CLI wrapper around the Google GenAI SDK.
 | **Edge AI** | On-Device Assistants | Enables long-term memory on devices with limited RAM/Context (e.g., Mobile/IoT). |
 
 ---
-
 ## 🤝 Contributing
 
 We are actively seeking contributors for:
-*   **Vector-OTP:** Embedding compressed symbols for hybrid search.
-*   **Auto-Healing:** Mechanisms for the Kernel to self-correct syntax errors.
-*   **LangChain Integration:** Custom Memory classes for OTP.
-
 ---
 
-**© 2025 Origami Thought Protocol.** *Redefining the physics of information density.*
+**© 2025 Origami Thought Protocol.
