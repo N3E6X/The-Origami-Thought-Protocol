@@ -108,15 +108,6 @@ OTP is implemented as a Python-based CLI wrapper around the Google GenAI SDK.
     python main.py
     ```
 ---
-## 🤝 Contributing
 
-We are actively seeking contributors for:
-
----
-## 🚀 Live Demo
-
-[OTP LIVE DEMO](https://ai.studio/apps/drive/1X8XtJBXV7Ht0egepEnMipH_tGSOup6RH)
-
----
 
 © 2025 Origami Thought Protocol.
