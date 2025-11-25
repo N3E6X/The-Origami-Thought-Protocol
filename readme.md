@@ -137,6 +137,7 @@ OTP is implemented as a Python-based CLI wrapper around the Google GenAI SDK.
 ## 🤝 Contributing
 
 We are actively seeking contributors for:
+
 ---
 
 **© 2025 Origami Thought Protocol.
