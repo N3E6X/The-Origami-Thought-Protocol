@@ -1,6 +1,6 @@
 # Origami Thought Protocol (OTP)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/N3E6X/The-Origami-Thought-Protocol/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/N3E6X/The-Origami-Thought-Protocol?tab=MIT-1-ov-file)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Backend: Gemini](https://img.shields.io/badge/Backend-Google%20Gemini-orange)](https://ai.google.dev/)
 
