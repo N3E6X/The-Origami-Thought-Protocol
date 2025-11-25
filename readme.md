@@ -29,7 +29,6 @@ By shifting from "text-in, text-out" pipelines to **structured thought-state com
 > **Note:** This implementation is a simple working application I built to demonstrate how OTP can be used in practice. It is not a full production system — it’s a minimal, functional example that shows the core idea in action.
 
 For AI engineers and CTOs building production-grade systems, OTP provides a new primitive that unlocks consistent behavior across complex, multi-step workflows while drastically reducing inference cost.
-
 ---
 
 # Insights
@@ -88,11 +87,9 @@ The table below compares a standard RAG retrieval, a compressed context method (
 | :--- | :--- | :--- | :--- |
 | **Original** | Write a high-quality answer for the given question using only the provided search results (some of which might be irrelevant).
 
-......
 Document [2](Title: OPEC) of "the top 100 most influential people in the shipping industry". However, the influence of OPEC on international trade is periodically challenged by the expansion of non-OPEC energy sources, and by the recurring temptation for individual OPEC countries to exceed production targets and pursue conflicting self-interests. As of June 2018, OPEC has 15 member countries: six in the Middle East (Western Asia), seven in Africa, and two in South America. According to the U.S. Energy Information Administration (EIA), OPEC\'s combined rate of oil production (including gas condensate) represented 44 percent of the world\'s total in 2016, and OPEC accounted for
-......
+
 Document [10](Title: OPEC) Organization of the Petroleum Exporting Countries (OPEC, /ˈoʊpɛk/ OH-pek, or OPEP in several other languages) is an intergovernmental organization of 14 nations as of February 2018, founded in 1960 in Baghdad by the first five members (Iran, Iraq, Kuwait, Saudi Arabia, and Venezuela), and headquartered since 1965 in Vienna, Austria. As of 2016, the 14 countries accounted for an estimated 44 percent of global oil production and 73 percent of the world\'s "proven" oil reserves, giving OPEC a major influence on global oil prices that were previously determined by American-dominated multinational oil companies.
-......
 
 Question: how many countries are a part of opec in may 2018? | 347 | **15 (Wrong)**<br>*(Hallucinated based on the June data)* |
 | **LongLLMLingua** | Write a high-quality answer for the given question using only the provided search results (some of which might be irrelevant).
